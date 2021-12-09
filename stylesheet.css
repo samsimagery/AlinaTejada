@@ -1,13 +1,14 @@
 * {
 	box-sizing: border-box
 }
+
+
 h1{
- font-family: 'Dongle', sans-serif;
-font-family: 'Righteous', cursive;
+font-family: 'Acme', sans-serif;
 		font-weight: 800;
     text-align: center;
-		color: #2B4141;
-
+    font-size: 50px;
+		color: black;
 
 }
 h2{
@@ -42,7 +43,7 @@ body {
   width: 100%;
 align-content: center;
   padding: 10px;
-	background-color: #F5F5F5;
+	background-color: aliceblue;
 }
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
 	display: none;
@@ -52,6 +53,21 @@ img {
 	vertical-align: middle;
 
 }
+
+
+/* Button Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+
+  padding: 0px;
+    justify-items: center;
+}
+
+
+
+
 /* Slideshow container */
 .slideshow-container {
 	max-width: 35vw;
@@ -165,6 +181,10 @@ h8{
     margin: auto;
     font-size: 10px
 }
+
+
+
+
 /* CSS FOR SMALL SCREENS */
 @media only screen and (max-width: 800px) {
 
