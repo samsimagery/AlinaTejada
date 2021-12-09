@@ -12,13 +12,22 @@ font-family: 'Acme', sans-serif;
 
 }
 h2{
-    font-family: 'Quicksand', serif;
+   font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: 300;
 		font-style: italic;
-
-
 }
+
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
 .center {
 	display: flex;
   justify-content: center;
@@ -179,7 +188,8 @@ h8{
 .p{
     text-align: center;
     margin: auto;
-    font-size: 10px
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
